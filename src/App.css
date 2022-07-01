@@ -1,38 +1,94 @@
 .App {
   text-align: center;
+  padding :20px;
+  background-color:skyblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  padding: 10px;
+border:transparent;
+border-radius: 4px;
+margin-right: 4px;
+width: 77%;
+outline: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+  padding: 10px;
+  background-color:rgb(159, 159, 85);
+  color: white;
+  border: transparent;
+  border-radius:px ;
+  cursor: pointer;
+  outline: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.no-courses
+{
+  color: black;
+  padding: 30px;
+  display: block;
+  font-weight: 500;
+}
+.list
+{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color:blue;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 10px;
+
+
+}
+.btns button:first-of-type{
+  margin-right: 4px;
+  background-color: cornflowerblue;
+}
+.btns button:last-of-type
+{
+background-color: red;
+}
+.edit
+{
+  background-color: rgb(53, 53, 154);
+  margin-top:10px ;
+  padding: 10px;
+  border-radius: 4px;
+}
+.edit input
+{
+  width:81%;
+}html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.App .card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+label.radio+.radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
 }

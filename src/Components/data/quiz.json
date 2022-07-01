@@ -1,0 +1,49 @@
+{
+    "data": [
+      {
+        "question": "HTML stands for - ?",
+        "choices": ["HighText Machine Language", "HyperText and links Markup Language", "HyperText Markup Language", "None of these"],
+        "answer": "HyperText Markup Language"
+      },
+      {
+        "question": "Which of the following element is responsible for making the text bold in HTML?",
+        "choices": ["<pre>", "<a>", "<b>", "<br>"],
+        "answer": "<b>"
+      },
+      {
+        "question": "Which of the following tag is used for inserting the largest heading in HTML ?",
+        "choices": ["<h1>", "<h2>", "<h3>", "<h4>"],
+        "answer": "<h1>"
+      },
+      {
+        "question": "Which of the following tag is used to insert a line-break in HTML?",
+        "choices": ["<br>","<a>","<pre>","<b>"],
+        "answer": "<br>"
+      },
+      {
+        "question": " How to create an unordered list (a list with the list items in bullets) in HTML?",
+        "choices": ["<ul>", "<li>", "<i>", "<ol>"],
+        "answer": "<ul>"
+      },
+      {
+        "question": "Which character is used to represent the closing of a tag in HTML? ?",
+        "choices": [".", "/", "+", "!"],
+        "answer": "/"
+      },
+      {
+        "question": "How to create an ordered list (a list with the list items in numbers) in HTML?",
+        "choices": ["<ul>", "<ol>", "<li>", "<i>"],
+        "answer": "<ol>"
+      },
+      {
+        "question": "Which of the following element is responsible for making the text italic in HTML?",
+        "choices": ["<b>", "<s>", "<i>", "<br>"],
+        "answer": "<i>"
+      },
+      {
+        "question": "Which of the following tag is used to make the underlined text ?",
+        "choices": ["<i>", "<ul>", "<u>", "<pre>"],
+        "answer": "<u>"
+      }
+    ]
+  }
